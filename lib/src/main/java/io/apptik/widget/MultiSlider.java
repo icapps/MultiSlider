@@ -1415,7 +1415,7 @@ public class MultiSlider extends View {
 
 		progress += scale * getScaleSize();
 
-		return Math.round(progress);
+		return progress;
 	}
 
 	/**
